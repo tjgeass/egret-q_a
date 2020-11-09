@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MenuSkin" width="1600" height="121" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btn_home" label="由来" verticalCenter="0" horizontalCenter="-523">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="t1_png" source.down="t2_png" source.disabled="t2_png"/>
+			<e:Label id="labelDisplay" text="" includeIn="up" size="42" fontFamily="KaiTi" width="100" height="50" verticalCenter="-8.5" verticalAlign="top" bold="true" textAlign="center" horizontalCenter="0"/>
+	<e:Label id="labelDisplay0" text="由来" includeIn="down,disabled" textColor="0x512311" size="42" fontFamily="KaiTi" width="100" height="50" verticalCenter="-8.5" verticalAlign="top" bold="true" textAlign="center" horizontalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_article" label="馆藏" x="721" y="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="t1_png" source.down="t2_png" source.disabled="t2_png"/>
+			<e:Label id="labelDisplay" text="" includeIn="up" size="42" fontFamily="KaiTi" width="100" height="50" verticalCenter="-8.5" horizontalCenter="0" verticalAlign="top" bold="true" textAlign="center"/>
+			<e:Label id="labelDisplay0" text="馆藏" includeIn="down,disabled" textColor="0x512311" size="42" fontFamily="KaiTi" width="100" height="50" horizontalCenter="0" verticalCenter="-8.5" verticalAlign="top" bold="true" textAlign="center"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_game" label="游戏" x="1264" y="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="t1_png" source.down="t2_png" source.disabled="t2_png"/>
+			<e:Label id="labelDisplay" text="" includeIn="up" size="42" fontFamily="KaiTi" width="100" height="50" verticalCenter="-8.5" horizontalCenter="0" verticalAlign="top" bold="true" textAlign="center"/>
+			<e:Label id="labelDisplay0" text="游戏" includeIn="down,disabled" textColor="0x512311" size="42" fontFamily="KaiTi" width="100" height="50" horizontalCenter="0" verticalCenter="-8.5" verticalAlign="top" bold="true" textAlign="center"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AnswerBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="200" height="40">
+	<e:Rect fillAlpha="1" fillColor="0x900000" strokeColor="0x900000" ellipseWidth="50" ellipseHeight="50" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="lbl_id" text="B." size="30" fontFamily="KaiTi" left="40" verticalCenter="0"/>
+	<e:Label id="lbl_text" text="春分" size="30" fontFamily="KaiTi" left="70" verticalCenter="0"/>
+</e:Skin>

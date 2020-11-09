@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardViewSkin" width="300" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="300" height="100" strokeColor="0x444444" strokeWeight="0" horizontalCenter="0" verticalCenter="0" enabled="true" fillColor="0x683333"/>
+	<e:Label id="lb_text" text="Label" anchorOffsetX="0" width="203" horizontalCenter="-38.5" verticalCenter="5" size="26" textColor="0xc5a56b" height="40" fontFamily="NSimSun" bold="true"/>
+	<e:Image width="68" height="46" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="116" verticalCenter="0"/>
+</e:Skin>

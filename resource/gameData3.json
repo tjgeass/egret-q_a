@@ -1,0 +1,102 @@
+[
+	{
+		"question": "但愿人长久",
+		"answer": "祝寿",
+		"options": [
+			"两相好",
+			"田家乐",
+			"守岁"
+		],
+		"explain": "祝寿"
+	},
+	{
+		"question": "奖励玉盘一个",
+		"answer": "赏月",
+		"options": [
+			"元宵灯会",
+			"阔时节",
+			"抓周"
+		],
+		"explain": "赏月"
+	},
+	{
+		"question": "你潇洒，我漂亮",
+		"answer": "两相好",
+		"options": [
+			"送人情",
+			"过生日",
+			"花儿会"
+		],
+		"explain": "两相好"
+	},
+	{
+		"question": "人行春色里 ",
+		"answer": "踏青",
+		"options": [
+			"花灯",
+			"秋生",
+			"花儿会"
+		],
+		"explain": "踏青"
+	},
+	{
+		"question": "上官封后，一夜出头",
+		"answer": "守岁",
+		"options": [
+			"花灯",
+			"抓周",
+			"办满月"
+		],
+		"explain": "守岁"
+	},
+	{
+		"question": "万紫千红开满园",
+		"answer": "花儿会",
+		"options": [
+			"送人情",
+			"秋生",
+			"踏青"
+		],
+		"explain": "花儿会"
+	},
+	{
+		"question": "喜看稻菽千重浪",
+		"answer": "田家乐",
+		"options": [
+			"两相好",
+			"祝寿",
+			"守岁"
+		],
+		"explain": "田家乐"
+	},
+	{
+		"question": "一夜鱼龙舞",
+		"answer": "元宵灯会",
+		"options": [
+			"赏月",
+			"阔时节",
+			"抓周"
+		],
+		"explain": "元宵灯会"
+	},
+	{
+		"question": "金猴奋起千钧棒",
+		"answer": "扫尘",
+		"options": [
+			"祭灶",
+			"赏月",
+			"守岁"
+		],
+		"explain": "扫尘"
+	},
+	{
+		"question": "连续操劳三十天",
+		"answer": "办满月",
+		"options": [
+			"抓周",
+			"守岁",
+			"两相好"
+		],
+		"explain": "办满月"
+	}
+]

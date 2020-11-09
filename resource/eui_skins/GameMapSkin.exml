@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMapSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" height="869" width="1299">
+	<w:Declarations>
+		<tween:TweenGroup id="tweenGroup">
+			<tween:TweenItem target="{group}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{180}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2700" ease="sineIn">
+					<tween:props>
+						<e:Object width="{1299}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="circIn">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gp_que}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2450"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="800" ease="sineIn">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gp_ans}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2750"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000" ease="sineIn">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{btn_back}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="3500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="400" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{lb_num}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="3500"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="400" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="3500"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="400">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{lb_time}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="3500"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="400">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="167bef5db54"/>
+	<e:Group id="group" width="1299" horizontalCenter="0" verticalCenter="0" scrollEnabled="true">
+		<e:Image id="image" source="map_png" fillMode="scale" anchorOffsetY="0" blendMode="normal" scaleX="1" smoothing="true" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image verticalCenter="0" source="line_png" left="-5"/>
+		<e:Image verticalCenter="0" source="line_png" y="10" right="-5" alpha="1"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn_back" label="" left="170" top="170">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="back1_png" source.down="back1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="label" text="倒计时：" size="25" fontFamily="KaiTi" textColor="0x9f231a" right="200" top="180" bold="true"/>
+	<e:Label id="lb_time" text="180" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="KaiTi" bold="true" textColor="0x9f231a" right="170" top="180"/>
+	<e:Label id="lb_num" text="第1题" fontFamily="KaiTi" horizontalCenter="-436" x="78.61000000000001" scaleX="1" scaleY="1" bottom="177" size="34" textColor="0x900000" bold="true"/>
+	<e:Button id="btn_goHome" label="" bottom="170" right="170" x="771" y="346" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gohome_png" source.down="gohome_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="gp_main" width="950" height="440" horizontalCenter="0" verticalCenter="0" x="-937" y="-489" scaleX="1" scaleY="1">
+		<e:Image id="image0" source="title_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-200" x="316" y="-127" scaleX="1" scaleY="1"/>
+		<e:Group id="gp_que" height="160" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" bottom="180">
+		<e:Label id="lb_question" text="桃园结义音已断" fontFamily="KaiTi" anchorOffsetX="0" lineSpacing="10" wordWrap="true" multiline="true" size="70" textColor="0x900000" bold="true" textAlign="center" anchorOffsetY="0" left="0" right="0" top="0"/>
+			<e:Label id="lb_que1" text="Label" size="50" textColor="0x900000" fontFamily="KaiTi" bottom="20" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="gp_ans" scaleX="1" scaleY="1" left="0" right="0" bottom="0" height="180">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" orientation="rows" horizontalGap="110" verticalGap="40" rowHeight="50" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap" paddingLeft="200" paddingRight="200" paddingTop="20" paddingBottom="20" columnWidth="200"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="gp_result" width="850" height="400" horizontalCenter="0" verticalCenter="0" x="-937" y="-479" scaleX="1" scaleY="1" visible="false">
+		<e:Label text="答题已结束" fontFamily="KaiTi" textColor="0x900000" bold="true" size="80" horizontalCenter="0" top="0"/>
+		<e:Label id="lb_text0" text="您本次答对10道题目" horizontalCenter="0" textColor="0x900000" size="45" fontFamily="FangSong" bold="true" verticalCenter="-70" rotation="0" textAlign="center" wordWrap="true"/>
+		<e:Label text="您本次成绩排名超越70%的人" id="lb_text1" horizontalCenter="0" textColor="0x900000" size="30" fontFamily="KaiTi" verticalCenter="-20" bold="true"/>
+		<e:Label text="您本次成绩排名超越70%的人" id="lb_text2" horizontalCenter="0" textColor="0x900000" size="30" fontFamily="KaiTi" bold="true" verticalCenter="20"/>
+		<e:Label text="您本次成绩排名超越70%的人" id="lb_text3" horizontalCenter="0" textColor="0x900000" size="30" fontFamily="KaiTi" bold="true" verticalCenter="60"/>
+		<e:Button id="btn_again" label="再试一次" horizontalCenter="0" verticalCenter="120">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn1_png" source.down="btn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xffe4b9" fontFamily="KaiTi_GB2312" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

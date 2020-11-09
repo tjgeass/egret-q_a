@@ -1,0 +1,49 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalAdsorbEnable": true,
+    "globalBackgroundAlpha": 100,
+    "globalBackgroundX": 0,
+    "globalBackgroundY": 0,
+    "globalBackgroundWidth": -1,
+    "globalBackgroundHeight": -1,
+    "globalBackgroundColor": "",
+    "globalBackgroundImage": "",
+    "globalBindingDataTestObj": []
+  },
+  "16362b4ac2b": {
+    "backgroundType": "user",
+    "backgroundImage": "E:\\gameweb\\fanpai\\fanpai\\resource\\assets\\simple\\bg1.png",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": false,
+    "backgroundAlpha": "100"
+  },
+  "16361bf0ed3": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "164dac22c1d": {
+    "backgroundType": "null",
+    "useBgImage": true,
+    "useBgColor": false,
+    "backgroundImage": "E:\\gameweb\\fanpai\\fanpai\\resource\\assets\\simple\\bg1.png",
+    "backgroundAlpha": "50",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "bindingDataTestObj": []
+  },
+  "167bef5db54": {
+    "bindingDataTestObj": []
+  }
+}

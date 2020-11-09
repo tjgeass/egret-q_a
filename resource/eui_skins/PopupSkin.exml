@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="result" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect strokeColor="0x000000" fillColor="0x000000" fillAlpha="0.85" strokeAlpha="0.85" left="0" right="0" top="0" bottom="0"/>
+    	
+	<e:Group width="638" height="770" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="result_png" bottom="0" horizontalCenter="0"/>
+		<e:Group id="gp_explain" scaleX="1" scaleY="1" left="0" right="0" bottom="0" top="80">
+			<e:Label id="lb_title" text="回答正确" fontFamily="SimSun" size="55" top="100" horizontalCenter="0" bold="true"/>
+			<e:Label text="正确答案:" fontFamily="KaiTi" top="220" left="70"/>
+			<e:Label id="lb_answer" text="立春" fontFamily="KaiTi" size="60" left="230" top="190" verticalAlign="bottom" bold="true"/>
+			<e:Label text="答案解析:" fontFamily="KaiTi" left="70" top="320"/>
+			<e:Label id="lb_explain" text="Label" fontFamily="KaiTi" anchorOffsetX="0" width="450" horizontalCenter="0" top="360"/>
+			<e:Button id="btn_next" label="下一题" horizontalCenter="0" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="next_png" source.down="next_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="gp_skip" anchorOffsetX="0" height="770" x="2" y="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="result_png" horizontalCenter="0" bottom="0"/>
+			<e:Label text="是否放弃本次答题？" fontFamily="Arial" horizontalCenter="0" verticalCenter="-100" size="48" bold="true"/>
+			<e:Group anchorOffsetY="0" left="0" right="0" bottom="0" height="448">
+			<e:Button id="btn_home" label="返回主页" horizontalCenter="0" verticalCenter="10" x="-274" y="-230" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="next_png" source.down="next_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="KaiTi" textColor="0xffffff"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_end" label="查看成绩" horizontalCenter="0" verticalCenter="150" x="-274" y="-90" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="next_png" source.down="next_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="KaiTi" textColor="0xffffff"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_close" label="取消" horizontalCenter="0" verticalCenter="300" x="-274" y="60" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="next_png" source.down="next_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="KaiTi" textColor="0xffffff"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="bottom"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Image id="ico" horizontalCenter="0" top="0" source="success_png"/>
+	</e:Group>
+</e:Skin>

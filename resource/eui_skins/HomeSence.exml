@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164dac22c1d"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="bg1_png"/>
+	<e:Label text="    每轮二十道题，随机从题库抽题，每次答题结束后会统计本轮分析您的答题准确率，题目的答案分布在博物馆展厅各处。" anchorOffsetX="0" width="651.4" anchorOffsetY="0" height="169.89" fontFamily="KaiTi" size="30" bold="true" verticalAlign="top" textAlign="left" horizontalCenter="-0.5" textColor="0xffffff" y="431.06" multiline="true" wordWrap="true" lineSpacing="10"/>
+	<e:Button id="btn_back" label="我已了解" x="893" y="688">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn1_png" source.down="btn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x2e6d8a" fontFamily="KaiTi" size="30" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

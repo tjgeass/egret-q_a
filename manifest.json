@@ -1,0 +1,39 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/game/game.js",
+		"promise/bin/promise.js"
+	],
+	"game": [
+		"bin-debug/sceen/ChoiceSceen.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/Main.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/control/LocalStorageControl.js",
+		"bin-debug/control/NewsConfig.js",
+		"bin-debug/control/ScreenControl.js",
+		"bin-debug/data/GameData.js",
+		"bin-debug/data/InitConfigData.js",
+		"bin-debug/data/PropsPrice.js",
+		"bin-debug/data/TimerData.js",
+		"bin-debug/element/GameElement.js",
+		"bin-debug/sceen/BeginSceen.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/sceen/GameSceen.js",
+		"bin-debug/sceen/HomeSceen.js",
+		"bin-debug/view/AnswerBtnView.js",
+		"bin-debug/view/CardView.js",
+		"bin-debug/view/GameMap.js",
+		"bin-debug/view/LoseView.js",
+		"bin-debug/view/MenuView.js",
+		"bin-debug/view/NewsView.js",
+		"bin-debug/view/PassView.js",
+		"bin-debug/view/PopupView.js",
+		"bin-debug/view/ResultView.js",
+		"bin-debug/view/TimerView.js"
+	]
+}

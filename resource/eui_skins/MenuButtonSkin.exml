@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.MenuButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" x="0" y="0" includeIn="down,disabled" source="t2_png"/>
+    <e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+             source.down="button_down_png" source="t1_png" includeIn="up"/>
+    <e:Label id="labelDisplay" top="8" bottom="43" left="8" right="8"
+             size="36"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetY="0" fontFamily="FangSong" text="字体" includeIn="up"/>
+	<e:Label id="labelDisplay0" top="8" bottom="43" left="8" right="8" size="36" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetY="0" fontFamily="FangSong" text="由来" includeIn="down,disabled" textColor="0x512311"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

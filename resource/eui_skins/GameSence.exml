@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16361bf0ed3"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="game_jpg" locked="true"/>
+	<ns1:GameMap id="gm" height="869" width="1299" anchorOffsetX="0" anchorOffsetY="0" skinName="GameMapSkin" horizontalCenter="0" verticalCenter="20" touchEnabled="false" touchChildren="true"/>
+	<ns1:PopupView id="popupView" left="0" right="0" top="0" bottom="0" visible="false"/>
+</e:Skin>

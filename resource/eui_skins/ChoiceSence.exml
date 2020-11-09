@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChoiceSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="tweenGroup">
+			<tween:TweenItem target="{btn_c1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{-1}" alpha="{0.85}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2000" ease="sineIn">
+					<tween:props>
+						<e:Object rotation="{0}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="sineIn">
+					<tween:props>
+						<e:Object rotation="{1}" alpha="{0.85}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{1}" rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{0.85}" rotation="{-1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{btn_c2}">
+				<tween:Set>
+				<tween:props>
+					<e:Object rotation="{-1}" alpha="{0.85}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="2000" ease="sineIn">
+				<tween:props>
+					<e:Object rotation="{0}" alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="sineIn">
+				<tween:props>
+					<e:Object rotation="{1}" alpha="{0.85}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+				<tween:props>
+					<e:Object alpha="{1}" rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+				<tween:props>
+					<e:Object alpha="{0.85}" rotation="{-1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{btn_c3}">
+				<tween:Set>
+				<tween:props>
+					<e:Object rotation="{-1}" alpha="{0.85}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="2000" ease="sineIn">
+				<tween:props>
+					<e:Object rotation="{0}" alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="sineIn">
+				<tween:props>
+					<e:Object rotation="{1}" alpha="{0.85}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+				<tween:props>
+					<e:Object alpha="{1}" rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+				<tween:props>
+					<e:Object alpha="{0.85}" rotation="{-1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{btn_c4}">
+				<tween:Set>
+				<tween:props>
+					<e:Object rotation="{-1}" alpha="{0.85}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="2000" ease="sineIn">
+				<tween:props>
+					<e:Object rotation="{0}" alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="sineIn">
+				<tween:props>
+					<e:Object rotation="{1}" alpha="{0.85}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+				<tween:props>
+					<e:Object alpha="{1}" rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="2000" ease="quadIn">
+				<tween:props>
+					<e:Object alpha="{0.85}" rotation="{-1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="choice_jpg" locked="true"/>
+	<e:Group id="gp" left="0" right="0" top="0" bottom="0" touchChildren="true">
+		<e:Button id="btn_c1" label="" scaleX="1" scaleY="1" touchChildren="false" blendMode="normal" cacheAsBitmap="true" top="0" x="51.51">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="c1_png" source.down="c1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_c2" label="" x="527.2466666666667" anchorOffsetY="0" scaleX="1" scaleY="1" touchChildren="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="c2_png" source.down="c2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_c3" label="" x="1000.3933333333332" anchorOffsetY="0" scaleX="1" scaleY="1" touchChildren="false" top="-3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="c3_png" source.down="c3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_c4" label="" x="1473.69" scaleX="1" scaleY="1" touchChildren="false" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="c4_png" source.down="c4_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>
